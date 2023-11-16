@@ -111,14 +111,37 @@ h3 {
     margin: 1.5rem 0;
 }
 
+.input-style {
+    padding: 0.3rem;
+    padding-left: .5rem;
+    outline: none;
+    border-radius: 0.3rem;
+    border: 1px solid black;
+    
+}
+
+.input-style:focus {
+    background: linear-gradient(
+        90deg, 
+        rgb(94, 176, 226, .3),
+        rgb(66, 140, 203, .3));
+}
+
 textarea {
     height: 5rem;
 }
 
 input[type="submit"] {
+    outline: none;
     margin-top: 1.6rem;
     height: 2rem;
+    border-radius: 0.3rem;
+    border: 1px solid black;
     cursor: pointer;
+    background: linear-gradient(
+        90deg, 
+        rgb(94, 176, 226, .3),
+        rgb(66, 140, 203, .3));
 }
 
 input[type="submit"]:hover {
@@ -126,8 +149,7 @@ input[type="submit"]:hover {
         90deg, 
         rgb(94, 176, 226),
         rgb(66, 140, 203));
-    border-radius: 0.3rem;
-    border: 1px solid black;
+    
 }
 
 footer {
