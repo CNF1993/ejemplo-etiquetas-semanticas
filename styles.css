@@ -7,6 +7,7 @@
     margin: 0;
     padding: 0;
     scroll-behavior: smooth;
+    /* border: 1px solid black; */
 }
 
 header {
@@ -44,14 +45,19 @@ nav ul {
 nav a {
     text-decoration: none;
     color: black;
-    padding: 2rem;;
+    padding: 1rem;;
+}
+
+.inicio {
+    padding: 1rem 1.7rem;
 }
 
 nav a:hover {
-    background: linear-gradient(
+    border-bottom: 4px solid yellow;
+    /* background: linear-gradient(
         90deg, 
         rgb(94, 176, 226),
-        rgb(66, 140, 203));
+        rgb(66, 140, 203)); */
     border-radius: 0.3rem;
 }
 
